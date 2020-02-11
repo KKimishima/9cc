@@ -19,5 +19,6 @@ try() {
 
 try 1 1
 try 21 "5+20-4"
+try 41 " 12 + 34 - 5 "
 
 echo "test完了"
