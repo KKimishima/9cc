@@ -5,5 +5,5 @@ project(9cc C)
 
 set(CMAKE_C_STANDARD 11)
 # a.outという実行ファイルをmain.cppとhello.cppから作成
-add_executable(9cc 9cc.c)
+add_executable(9cc main.c 9cc.h parse.c tokenize.c codegen.c)
 
